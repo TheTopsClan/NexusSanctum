@@ -1,0 +1,59 @@
+.Exit {
+	font-size: 24px;
+	border: 20px solid darkred;
+	border-radius: 10px 0px 10px 0px;
+	background-color: darkred;
+	text-decoration: none;
+	color: white;
+	font-family: 'Ink Free'
+
+}
+
+body {
+	background-color: black;
+}
+
+.Exit {
+	background-color: red;
+	border: 20px solid red
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: cursive;
+}
+
+.first {
+	font-size: 34px;
+	border: 20px solid lawngreen;
+	border-radius: 20px 20px 20px 20px;
+	background-color: lawngreen;
+	text-decoration: none;
+	color: white;
+	font-family: 'Comic Sans MS';
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 300px;
+}
+
+}
+
+.first:hover {
+	background-color: darkgreen;
+	border: 20px solid darkgreen;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}
+
+h4 {
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}

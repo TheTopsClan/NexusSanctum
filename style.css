@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('Fonts/Fredoka/FredokaFont.ttf');
+}
+
+
+body {
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    font-family: 'Fredoka One';
+}
+
+h1 {
+    background-color: rgb(147, 151, 153);
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.Socials {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    transition: 0.3s;
+    background-color: #007BFF;
+}
+
+    .Socials:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    img {
+        border-radius: 0px 20px 0px 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .Navigation {
+        font-family:'Quikhand 1.1';
+        color: dimgray;
+        font-size: 10px;
+        background-color: none;
+        border: 10px solid black;
+        background-color: black;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .Navigation:hover {
+        color: gray;
+        font-size: 15px;
+    }
