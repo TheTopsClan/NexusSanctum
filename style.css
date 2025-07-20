@@ -59,7 +59,7 @@ h1 {
         font-size: 15px;
     }
 
-.LanguageSelect {
+#LanguageSelect {
     position: fixed;
     top: 10px;
     right: 10px;
