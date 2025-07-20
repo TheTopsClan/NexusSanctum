@@ -1,11 +1,11 @@
 function Change() {
   const LanguageSelect = document.getElementById("LanguageSelect");
+  const selectedLang = LanguageSelect.value;
+
   const title = document.getElementById("Title");
   const StudioDescription = document.getElementById("StudioDescription");
   const NavOurGames = document.getElementById("NavOurGames");
   const Discord = document.getElementById("Discord");
-
-  const selectedLang = LanguageSelect.value;
 
   if (selectedLang === "English") {
     title.innerHTML = "Nexus Developer Team";
