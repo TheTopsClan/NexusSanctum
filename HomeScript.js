@@ -3,9 +3,9 @@ const title = document.getElementbyID("Title");
 const StudioDescription = document.getElementbyID("StudioDescription");
 const NavOurGames = document.getElementbyID("NavOurGames");
 const Discord = document.getElementbyID("Discord");
-const English = LanguageSelect.value==="English";
-const Spanish = LanguageSelect.value==="Español";
-const French = LanguageSelect.Value==="Français";
+const English = LanguageSelect.value === "English";
+const Spanish = LanguageSelect.value === "Español";
+const French = LanguageSelect.Value === "Français";
 
 function Change() {
   if (English) {
