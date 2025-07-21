@@ -1,59 +1,38 @@
-.Exit {
-	font-size: 24px;
-	border: 20px solid darkred;
-	border-radius: 10px 0px 10px 0px;
-	background-color: darkred;
-	text-decoration: none;
-	color: white;
-	font-family: 'Ink Free'
-
-}
-
 body {
-	background-color: black;
-}
-
-.Exit {
-	background-color: red;
-	border: 20px solid red
-}
-
-h1 {
-	text-align: center;
-	color: white;
-	font-family: 'Segoe UI'
-}
-
-.first {
-	font-size: 34px;
-	border: 20px solid lawngreen;
-	border-radius: 20px 20px 20px 20px;
-	background-color: lawngreen;
-	text-decoration: none;
-	color: white;
-	font-family: 'Comic Sans MS';
-	text-align: center;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	width: 300px;
-}
-
-}
-
-.first:hover {
-	background-color: darkgreen;
-	border: 20px solid darkgreen;
-}
-
-h3 {
-	text-align: center;
-	color: white;
-	font-family: Arial;
-}
-
-h4 {
-	text-align: center;
-	color: white;
-	font-family: Arial;
-}
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.1em;
+            color: #bbbbbb;
+        }
+        .section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .contact {
+            text-align: center;
+            margin: 60px 0;
+            font-size: 1em;
+            color: #888;
+        }
+        a {
+            color: #4ea3ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
