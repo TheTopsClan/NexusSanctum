@@ -12,7 +12,7 @@
             color: #ffffff;
         }
         header {
-            background-image: url('background.jpg'); /* Replace with your image */
+            background-image: url('background.jpg')
             background-size: cover;
             background-position: center;
             text-align: center;
@@ -118,7 +118,47 @@
     </div>
 </div>
 
-<!-- Sections like Our Games, About, Contact can go here -->
+<section style="padding: 40px 20px; background-color: #000; color: #fff;">
+    <header id="#games">
+    <h2> style="text-align: center; font-size: 2em;">Our Games</h2>
+
+    <div style="
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: 40px auto 0;
+    ">
+        <!-- Game Card -->
+        <div style="text-align: center;">
+            <img src="game1.jpg" alt="Game 1" style="width: 100%; border-radius: 12px;">
+            <p style="font-weight: bold; margin: 10px 0;">Game</p>
+            <p>Visits <strong>18.8B</strong><br>Playing <strong>3M</strong></p>
+        </div>
+
+        <!-- Game Card -->
+        <div style="text-align: center;">
+            <img src="game2.jpg" alt="Game 2" style="width: 100%; border-radius: 12px;">
+            <p style="font-weight: bold; margin: 10px 0;">Game</p>
+            <p>Visits <strong>5.8B</strong><br>Playing <strong>547.7K</strong></p>
+        </div>
+
+        <!-- Game Card -->
+        <div style="text-align: center;">
+            <img src="game3.jpg" alt="Game 3" style="width: 100%; border-radius: 12px;">
+            <p style="font-weight: bold; margin: 10px 0;">Game</p>
+            <p>Visits <strong>5.3B</strong><br>Playing <strong>15.7K</strong></p>
+        </div>
+
+        <!-- Game Card -->
+        <div style="text-align: center;">
+            <img src="game4.jpg" alt="Game 4" style="width: 100%; border-radius: 12px;">
+            <p style="font-weight: bold; margin: 10px 0;">Game</p>
+            <p>Visits <strong>1.1B</strong><br>Playing <strong>14.8K</strong></p>
+        </div>
+    </div>
+    </header>
+</section>
 
 </body>
 </html>
