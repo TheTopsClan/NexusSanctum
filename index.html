@@ -1,40 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Nexus Developer Team</title>
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Nexus Sanctum" />
-    <meta property="og:description" content="A roblox developer team, will you enjoy it or not? (you will)" />
-    <meta property="og:url" content="https://thetopsclan.github.io/NexusSanctum/" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Studios</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-image: url('background.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 120px 20px 60px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #cccccc;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .buttons {
+            margin: 30px 0;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .primary-btn {
+            background-color: #4ea3ff;
+            color: #ffffff;
+        }
+        .primary-btn:hover {
+            background-color: #2e80db;
+        }
+        .secondary-btn {
+            background-color: #ffffff;
+            color: #121212;
+        }
+        .secondary-btn:hover {
+            background-color: #dddddd;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            background-color: #1e1e1e;
+            padding: 40px 20px;
+            font-size: 1.2em;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat span {
+            display: block;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #4ea3ff;
+        }
+        nav {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <img src="nexuslogo.png" alt="Nexus Logo" />
-    <select id="LanguageSelect" onchange="Change()">
-        <option disabled>Change Language</option>
-        <option selected>English</option>
-        <option>Español</option>
-        <option>Français</option>
-    </select>
 
-    <br>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#games">Our Games</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <h1 class="Title" id="Title">Nexus Developer Team</h1>
-    <p id="StudioDescription">
-      Nexus Sanctum developer team is a group of people who make games just for you (yes you). This team has a lot of things for you. Check These Out!
-    </p>
+<header id="home">
+    <h1>Nexus Studios</h1>
+    <p>We create immersive Roblox experiences for players around the world.</p>
+    <div class="buttons">
+        <a href="#games" class="primary-btn">Explore Our Games</a>
+        <a href="#contact" class="secondary-btn">Talk to Us</a>
+    </div>
+</header>
 
-    <br>
+<div class="stats">
+    <div class="stat">
+        <span>0</span>
+        Players currently playing
+    </div>
+    <div class="stat">
+        <span>Coming Soon</span>
+        Total play sessions
+    </div>
+</div>
 
-    <nav>
-        <a href="Games.html" class="Navigation" id="NavOurGames">Our Games</a>
-    </nav>
+<!-- Sections like Our Games, About, Contact can go here -->
 
-    <br>
-
-    <a href="https://discord.gg/y2RfGYSNt3" class="Socials" id="Discord">Join our Discord!</a>
-
-    <script src="HomeScript.js"></script>
 </body>
 </html>
