@@ -63,3 +63,5 @@ h1 {
     position: fixed;
     top: 10px;
     right: 10px;
+    background-color: green;
+    border-radius: 20px 20px 20px 20px;
