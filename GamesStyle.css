@@ -8,17 +8,25 @@ body {
 
 .Exit {
     background-color: red;
-    border-radius: 0px 20px 20px 0px;
-    margin: 5px;
+    border-radius: 50%;
     width: 50px;
-    height: 75px;
+    height: 50px;
     position: absolute;
     top: 10px;
     left: 10px;
+    cursor: pointer;
 }
 
 h1, h3 {
     text-align: center;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 .first {
@@ -28,7 +36,9 @@ h1, h3 {
     margin: 20px auto;
     background-color: green;
     border-radius: 20px;
-    width: 100px;
-    height: 325px;
+    width: 250px;
+    height: 100px;
     text-align: center;
+    font-size: 14px;
+    cursor: pointer;
 }
