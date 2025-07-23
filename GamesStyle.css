@@ -18,6 +18,7 @@ body {
     font-weight: bold;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 h1, h3, p {
