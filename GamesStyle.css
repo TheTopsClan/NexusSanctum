@@ -8,12 +8,15 @@ body {
 
 .Exit {
     background-color: red;
-    border-radius: 0px 20px 20px 0px;
-    width: 50px;
+    border-radius: 0px 20px 0px 20px;
+    margin: 10px;
+    width: 120px;
     height: 50px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
     cursor: pointer;
 }
 
@@ -21,24 +24,22 @@ h1, h3 {
     text-align: center;
 }
 
-.center-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
 .first {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: green;
     border-radius: 20px;
-    width: 250px;
+    width: 300px;
     height: 100px;
     text-align: center;
-    font-size: 14px;
-    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.first:hover {
+    background-color: darkgreen;
 }
