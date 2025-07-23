@@ -8,10 +8,10 @@ body {
 
 .Exit {
     background-color: red;
-    border-radius: 0px 20px 0px 20px;
+    border-radius: 0px 20px 20px 0px;
     margin: 5px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 75px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -28,7 +28,7 @@ h1, h3 {
     margin: 20px auto;
     background-color: green;
     border-radius: 20px;
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 325px;
     text-align: center;
 }
